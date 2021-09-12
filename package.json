@@ -1,0 +1,47 @@
+{
+  "version": "1.0.4",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://amisa.co",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "dev": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint src test stories",
+    "prepare": "tsdx build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "gzip": "node gzip-size.js"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "name": "force2update",
+  "author": "Hamed Mirsmaeili",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "babel-jest": "^25.5.1",
+    "babel-loader": "^8.1.0",
+    "gzip-size": "^5.1.1",
+    "identity-obj-proxy": "^3.0.0",
+    "react": "^17.0.2",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "ts-loader": "^7.0.2",
+    "tsdx": "^0.13.2",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
