@@ -14,8 +14,6 @@ Force update from anywhere to those using a useForceUpdate hook with optional pa
 ```bash
 npm i force2update
 
-# or
-# yarn add mittt force2update
 ```
 
 ## Usage example
