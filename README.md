@@ -42,6 +42,3 @@ function App() {
   )
 }
 ```
-
-## Keywords
-react reactjs force force2update forceUpdate forceToUpdate reactComponentUpdate

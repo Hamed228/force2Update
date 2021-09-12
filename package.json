@@ -7,6 +7,13 @@
     "dist",
     "src"
   ],
+  "bugs": {
+    "url": "https://github.com/Hamed228/force2Update/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hamed228/force2Update"
+  },
   "homepage": "https://amisa.co",
   "engines": {
     "node": ">=10"
@@ -43,5 +50,23 @@
     "tsdx": "^0.13.2",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
-  }
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "force",
+    "force2update",
+    "forceUpdate",
+    "forceToUpdate",
+    "run",
+    "run2update",
+    "runUpdate",
+    "runToUpdate",
+    "reactComponentUpdate",
+    "amisa",
+    "amisa.me",
+    "amisa.co",
+    "amin system",
+    "امین سیستم"
+  ]
 }
