@@ -26,11 +26,19 @@ npm i force2update
 import { useForceUpdate, useForceUpdateField } from 'force2update'
 
 function App() {
+
+
+  const forceUpdate = useForceUpdate()
+
+
   let onUpdate = () => {
+    
     // apply non-reactive changes.
+    
     nonReactive.something = 'something updated'
 
-    useForceUpdate()
+    forceUpdate()
+
   }
 
   return (
