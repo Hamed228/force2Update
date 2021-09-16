@@ -64,6 +64,8 @@
     "typescript",
     "force",
     "force2update",
+    "useForceUpdate",
+    "use-Force-Update",
     "forceUpdate",
     "forceToUpdate",
     "run",
