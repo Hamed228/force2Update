@@ -22,10 +22,13 @@
     "start": "tsdx watch",
     "dev": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint src test stories",
     "prepare": "tsdx build",
-    "gzip": "node gzip-size.js"
+    "gzip": "node gzip-size.js",
+    "test:typecheck": "tsc --noEmit",
+    "test:sources": "jest --coverage",
+    "test:sources:watch": "jest --watch",
+    "test": "run-p test:*"
   },
   "peerDependencies": {
     "react": ">=17"
@@ -34,19 +37,25 @@
   "author": "Hamed Mirsmaeili",
   "devDependencies": {
     "@babel/core": "^7.9.6",
+    "@testing-library/react": "12.1.0",
+    "@types/jest": "27.0.1",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "babel-jest": "^25.5.1",
     "babel-loader": "^8.1.0",
     "gzip-size": "^5.1.1",
     "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.2.0",
+    "npm-run-all": "4.1.5",
     "react": "^17.0.2",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
+    "rollup": "2.56.3",
+    "ts-jest": "27.0.5",
     "ts-loader": "^7.0.2",
-    "tsdx": "^0.13.2",
-    "tslib": "^1.11.1",
+    "tsdx": "^0.14.1",
+    "tslib": "2.3.1",
     "typescript": "^3.8.3"
   },
   "keywords": [
